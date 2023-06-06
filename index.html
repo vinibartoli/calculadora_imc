@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="principal-container">
+      <h1>Calculadora de IMC</h1>
+      <div id="container">
+        <div id="input-container">
+          <div id="input-container">
+            <label for="altura" id="label-altura">Altura: </label>
+            <input
+              type="text"
+              id="input-altura"
+              class="altura"
+              placeholder="Ex: 1.85"
+            />
+            <label for="peso" id="label-peso">Peso: </label>
+            <input
+              type="text"
+              id="input-peso"
+              class="peso"
+              placeholder="Ex: 85.00"
+            />
+          </div>
+          <div id="btn-container">
+            <button id="btn-calcular" onclick="calcularImc()">Calcular</button>
+            <button id="btn-limpar">Limpar</button>
+          </div>
+          <div id="container-result">
+            <p id="result"></p>
+            <p id="result-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>

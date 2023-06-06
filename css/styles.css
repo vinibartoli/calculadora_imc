@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#principal-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #a5befa;
+}
+
+#container{
+  border: 2px solid #000;
+  display: flex;
+  width: 600px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+#input-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#input-peso, #input-altura{
+  height: 2rem;
+  border-radius: 5px;
+  border: none;
+  outline: 1px solid #000;
+  width: 20rem;
+  font-size: 1rem;
+}
+
+#label-altura, #label-peso{
+  font-weight: 10000;
+  font-size: 2em;
+}
+
+#btn-calcular{
+  padding: 15px;
+  font-weight: 900;
+  background-color: #64b7cc;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+#btn-limpar {
+  padding: 15px;
+  font-weight: 900;
+  background-color: #b3093f;
+  border: 1px solid #000;
+  cursor: pointer;
+  margin: 20px;
+}
+
+#container-result{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#result{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#result-text{
+  font-size: 2rem;
+  font-weight: 700;
+}
